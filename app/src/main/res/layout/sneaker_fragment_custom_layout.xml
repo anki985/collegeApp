@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/dim_200"
+            android:layout_height="@dimen/dim_250"
+            app:cardCornerRadius="@dimen/dim_20"
+            android:elevation="@dimen/dim_20"
+            android:padding="@dimen/dim_5">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="$20"
+                    android:textSize="@dimen/dim_30"
+                    android:id="@+id/price"/>
+
+                <ImageView
+                    android:id="@+id/img_sneakers"
+                    android:layout_width="@dimen/dim_200"
+                    android:layout_height="@dimen/dim_150"
+                    android:layout_below="@+id/price"
+                    android:layout_margin="@dimen/dim_5"
+                    android:src="@drawable/sneaker1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_50"
+                    android:background="@color/itemBottomBackground"
+                    android:gravity="center"
+                    android:layout_below="@+id/img_sneakers">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/dim_20"
+                        android:text="Nike Jordan"
+                        android:textColor="@color/white"
+                        android:typeface="serif"
+                        android:textStyle="bold"
+                        android:id="@+id/name_of_sneaker"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>

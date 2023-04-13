@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".product_detail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_350"
+            android:id="@+id/img_view_product"
+            android:src="@drawable/sneaker1" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/img_view_product">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Max:270"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/dim_20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$00"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dim_25"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/dim_250"
+                android:id="@+id/product_price"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

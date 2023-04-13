@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GrossKart</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="rohit">Rohit</string>
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+    <string name="textViewInHomePage">Our Product</string>
+    <string name="home_sneaker">Sneakers</string>
+    <string name="home_bags">Bags</string>
+    <string name="home_watches">Watches</string>
+    <string name="home_perfumes">Perfumes</string>
+    <string name="home_shirt">Shirts</string>
+    <string name="home_pant">Pants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

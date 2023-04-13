@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor"
+    tools:context=".splash_screen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="@dimen/dim_150"
+        android:layout_height="@dimen/dim_150"
+        app:lottie_autoPlay="true"
+        android:layout_centerInParent="true"
+        app:lottie_loop="true"
+        android:id="@+id/lottiAnim"
+        app:lottie_rawRes="@raw/splash_screen" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lottiAnim"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/animationLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gross"
+            android:id="@+id/gross"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dim_30"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/dim_130"
+            android:typeface="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kart"
+            android:id="@+id/Kart"
+            android:textSize="@dimen/dim_30"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</RelativeLayout>

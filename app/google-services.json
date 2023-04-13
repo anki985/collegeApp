@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "905954789400",
+    "project_id": "grosskart-6263e",
+    "storage_bucket": "grosskart-6263e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905954789400:android:ac0235cfb5bc68369adb6d",
+        "android_client_info": {
+          "package_name": "com.example.grosskart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905954789400-12gpk06ncdteemrfek2seo3a5vnnrf21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grosskart",
+            "certificate_hash": "a4091a3b5838db33f5af991cc05824a21bd3f301"
+          }
+        },
+        {
+          "client_id": "905954789400-gjqgsmg2ua7f5eal194192cgil0u6bgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh4fW3ED9wDnecTd8PLhKz8JIDbRzsJgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905954789400-gjqgsmg2ua7f5eal194192cgil0u6bgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
